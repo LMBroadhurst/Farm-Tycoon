@@ -1,0 +1,22 @@
+#main {
+    background-image: url(../images/website-background.webp);
+    padding-bottom: 3rem;
+    min-height: 100%;
+}
+
+@media (min-height: 0px) {
+
+    .no-farms-in-list {
+        margin-top: 5rem;
+        margin-bottom: 15rem;
+    }
+}
+
+.addTask-Sound {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 1rem;
+}

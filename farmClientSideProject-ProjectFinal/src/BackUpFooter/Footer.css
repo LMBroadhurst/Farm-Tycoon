@@ -1,0 +1,173 @@
+#footer {
+    margin-top: 0rem;
+
+}
+
+.grey-footer-bar {
+    background-color: gainsboro;
+    height: 2rem;
+}
+
+#footer>footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #bbd6e2;
+}
+
+
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+    padding: 1rem 2rem;
+}
+
+.subscribe-and-backtotop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.subscribeForm>input,
+.subscribeForm>button {
+    font-size: 1.6rem;
+}
+
+.subscribe-and-backtotop>button {
+    font-size: 1.6rem;
+}
+
+#scrollToTop {
+    margin: 0 1rem;
+}
+
+.centreFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+    padding: 1rem 2rem;
+}
+
+.footerRight>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#farmLogo {
+    height: 120px;
+    width: 160px;
+}
+
+.iconSize {
+    width: 1.5em;
+    height: 1.8em;
+}
+
+#ad1 {
+    width: 220px;
+    height: 85px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.581);
+}
+
+#copyright {
+    font-size: 2rem;
+    color: green;
+    text-shadow: 2px 2px #630909;
+}
+
+
+
+
+/* DROPUPS */
+
+
+
+.centreFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerNavbar {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    font-size: 2rem;
+}
+
+.dropup span {
+    padding: 1rem 4rem;
+    background-color: #9DC183;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+}
+
+.dropup:hover {
+    margin-top: 1rem;
+}
+
+.dropup span:hover {
+    background-color: #47593b;
+}
+
+
+
+.dropup ul {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 1.25rem 0.5rem;
+    padding-bottom: 0.25rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.dropup-items {
+    display: none;
+}
+
+.dropup:hover .dropup-items {
+    display: flex;
+    flex-direction: column;
+    transition: height 2s;
+}
+
+.social-media-icons>ul {
+    display: flex;
+    flex-direction: row;
+
+    font-size: 2.4rem;
+}
+
+.social-media-icons>ul>li {
+    padding: 0.25rem;
+    color: rgb(78, 7, 78);
+    margin: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.social-media-icons>ul>li:hover {
+    background-color: rgb(78, 7, 78);
+    border-radius: 0.25rem;
+    color: white;
+
+    cursor: pointer;
+}
