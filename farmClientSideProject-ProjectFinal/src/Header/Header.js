@@ -14,10 +14,8 @@ const Header = () => {
           <h2>🌾 Farm Tycoon 🌾</h2>
 
           <div className='Author-Names'>
-            <h3>Proudly developed by:</h3>
-            <span>Peace Akib</span>
+            <h3>Proudly developed by</h3>
             <span>Lewis Broadhurst</span>
-            <span>Ana Bela Moreno Lima</span>
           </div>
         </div>
 

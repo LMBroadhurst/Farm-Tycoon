@@ -1,6 +1,6 @@
 
 
-const FarmHeader = ( { money, setMoney, farmName, farmDate } ) => {
+const FarmHeader = ( { money, farmName, farmDate } ) => {
 
     
 
