@@ -99,6 +99,10 @@
 
 
 
+
+
+
+
 .centreFooter {
     display: flex;
     flex-direction: column;
@@ -142,6 +146,8 @@
 
 .dropup-items {
     display: none;
+    z-index: 1;
+    position: absolute;
 }
 
 .dropup:hover .dropup-items {
@@ -149,6 +155,13 @@
     flex-direction: column;
     transition: height 2s;
 }
+
+
+
+
+
+
+
 
 .social-media-icons>ul {
     display: flex;
